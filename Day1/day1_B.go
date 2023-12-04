@@ -12,7 +12,7 @@ func main() {
 
 	digWords := []string{"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
 
-	f, _ := os.Open("./day1.txt")
+	f, _ := os.Open("./input.txt")
 	defer f.Close()
 	sc := bufio.NewScanner(f)
 

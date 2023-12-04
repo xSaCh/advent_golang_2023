@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	f, _ := os.Open("./day3.txt")
+	f, _ := os.Open("./input.txt")
 	defer f.Close()
 	sc := bufio.NewScanner(f)
 	scheme := [][]rune{}
